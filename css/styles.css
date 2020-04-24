@@ -1,0 +1,42 @@
+ span {
+    font-family: 'Fugaz One', cursive;
+}
+
+hr {
+    color: aliceblue;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+
+.row {
+    border: 1px solid navy;
+    display: flex;
+    justify-content: space-around;
+}
+
+#chicken, #sushi, #beef {
+    border: 1px solid black;
+    background: grey;
+    margin-bottom: 50px;
+}
+
+.col-xs-8 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+@media (min-width: 768px)
+{
+    .navbar-toggler {
+        display: none;
+    }
+
+    
+}
+
